@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  padding: 10px;
+}
+.back-moon {
+  background-image: url("moonPic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.header {
+  z-index: 5;
+  width: 100%;
+  height: 12%;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+.btn {
+  border: none;
+  background: none;
+  box-shadow: 1px 1px 2px rgba(21, 21, 21, 0.1);
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "Dosis", sans-serif;
+  margin: 0 1rem;
+  padding: 0.25rem 5rem;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+}
+.btn:focus,
+.btn:hover {
+  box-shadow: 1px 1px 2px rgba(21, 21, 21, 0.5);
+}
+.btn-moon {
+  background: #849ab1;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px;
+  color: #2d3b4a;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn-moon:hover {
+  background: #2c4663;
+  color: white;
+}
+.back-galaxy {
+  background-image: url("galaxyPic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.btn-galaxy {
+  background: #849ab1;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  color: #2d3b4a;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn-galaxy:hover {
+  background: #2c4663;
+  color: white;
+}
+.back-blackHole {
+  background-image: url("blackHolePic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.btn-blackHole {
+  background: #849ab1;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px;
+  color: #2d3b4a;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.btn-blackHole:hover {
+  background: #2c4663;
+  color: white;
+}
+.description-moon {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 25%;
+  color: #D2DCD3;
+  position: absolute;
+}
+.description-galaxy {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  top: 150%;
+  left: 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  height: 27%;
+  color: #D2DCD3;
+  position: absolute;
+}
+.description-blackHole {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  margin-left: 50px;
+  font-family: 'Poppins', sans-serif;
+  top: 240%;
+  left: 57%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  height: 27%;
+  color: #D2DCD3;
+  position: absolute;
+}
